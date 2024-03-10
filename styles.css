@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-grow: 1;
+}
+
+.formWrapper, .image{
+    height: 100%;
+}
+
+.formWrapper{
+    flex: 2.5;
+}
+
+.image{
+    flex: 1;
+    background-color: magenta;
+}
